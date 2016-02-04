@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Compatibilty / Responsive Web -->
+	<meta charset='utf-8'>
+    <meta content='IE=edge' http_equiv='X-UA-Compatible'>
+    <meta content='width=device-width, initial-scale=1' name='viewport'>
+	
+	<!-- BootStrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+	<!-- JavaScript -->
+	<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+	<script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script src="javascript.js"></script>
+	
+	<style>
+	body {margin-top: 10px;}
+	table, th, td {
+		border: 1px solid black;
+		border-collapse: collapse;}
+	.tablerow{display: none;}
+	</style>
+</head>
+<body>
+
+	<div class="col-sm-4">
+	
+	<div class="panel panel-success">
+		<div class="panel-heading">
+			<h3 class="panel-title">Square<div class="squarehead pull-right"></div></h3>
+		</div>
+		<div class="panel-body">
+			
+				<div class="form-group">
+					<label for="side1square">Side 1:</label>
+					<input name="side1square" class="form-control" type="text" placeholder="0">
+				</div>
+
+				<div class="form-group">
+					<label for="side2square">Side 2:</label>
+					<input name="side2square" class="form-control" type="text" placeholder="0">
+				</div>
+				
+				<input class="btn btn-block btn-default" type="submit" value="Enter" name="btnsquare">
+			
+		</div>
+    </div>     
+	
+	<div class="panel panel-success">
+		<div class="panel-heading">
+			<h3 class="panel-title">Circle<div class="circlehead pull-right"></div></h3>
+		</div>
+		<div class="panel-body">
+				<div class="form-group">
+					<label for="radius">Radius:</label>
+					<input name="radius" class="form-control" type="text" placeholder="0">
+				</div>
+				<input class="btn btn-block btn-default" type="submit" value="Enter" name="btncircle">
+
+		</div>
+    </div>     
+	
+	<div class="panel panel-success">
+		<div class="panel-heading">
+			<h3 class="panel-title">Rectangle<div class="rectanglehead pull-right"></div></h3>
+		</div>
+		<div class="panel-body">
+
+				<div class="form-group">
+					<label for="side1rectangle">Side 1:</label>
+					<input name="side1rectangle" class="form-control" type="text" placeholder="0">
+				</div>
+
+				<div class="form-group">
+					<label for="side2rectangle">Side 2:</label>
+					<input name="side2rectangle" class="form-control" type="text" placeholder="0">
+				</div>
+				
+				<input class="btn btn-block btn-default" type="submit" value="Enter" name="btnrectangle">
+
+		</div>
+    </div>     	
+	
+	<div class="panel panel-success">
+		
+		<div class="panel-heading">
+			<h3 class="panel-title">Triangle<div class="trianglehead pull-right"></div></h3>
+		</div>
+		<div class="panel-body">
+
+				<div class="form-group">
+					<label for="side1triangle">Side 1:</label>
+					<input name="side1triangle" class="form-control" type="text" placeholder="0">
+				</div>
+
+				<div class="form-group">
+					<label for="side2triangle">Side 2:</label>
+					<input name="side2triangle" class="form-control" type="text" placeholder="0">
+				</div>
+				
+				<input class="btn btn-block btn-default" type="submit" value="Enter" name="btntriangle">
+
+		</div>
+    </div>     
+	
+	</div>
+
+
+	<table class="tablerow">
+		<tr>
+			<td id="1">Value1</td>
+			<td id="2">Value1</td>
+			<td id="3">Vlaue1</td>
+			<td id="4">Value1</td>
+			<td id="5">Value1</td>
+		</tr>
+	</table>
+	
+	
+	<div class="col-sm-8">
+		<div class="panel panel-info">
+		<div class="panel-heading">
+			<h3 class="panel-title">Shapes<div class="shapehead pull-right"></div></h3>
+		</div>
+		<div class="panel-body">
+          <table class="table">
+			<tr>
+				<th>Shape</th>
+				<th>Name</th>
+				<th>Size 1</th>
+				<th>Size 2</th>
+				<th>Area</th>
+			</tr>
+			
+			
+		  </table>
+		</div>
+	</div>
+	</div>
+	
+</body>
+</html>
